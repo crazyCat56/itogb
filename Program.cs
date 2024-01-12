@@ -33,4 +33,12 @@ string [] symbol(string [] stringArray)
   }
   return rez;
 }
-
+void printA(string [] stringArray)
+{
+    for (int i = 0;i<stringArray.Length;i++)
+    {
+    Console.Write($"{stringArray[i]},");
+    }
+}
+array(stringArray);
+printA(symbol(stringArray));
